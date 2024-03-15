@@ -1,7 +1,8 @@
-package pl.coderslab.charity.category;
+package pl.coderslab.charity.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+import pl.coderslab.charity.classes.Category;
 
 @Repository
 public interface CategoryRepository extends JpaRepository<Category, Long> {

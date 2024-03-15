@@ -1,7 +1,9 @@
-package pl.coderslab.charity.category;
+package pl.coderslab.charity.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pl.coderslab.charity.classes.Category;
+import pl.coderslab.charity.repositories.CategoryRepository;
 
 import java.util.List;
 import java.util.Optional;
